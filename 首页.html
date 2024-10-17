@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>智慧树网-学生首页</title>
+    <style>
+        body{background-color: rgb(226, 226, 226);}
+        .header{width: 100%; height: 100px; background-color: rgb(15, 15, 206); overflow: hidden; border-top-left-radius: 5px; border-top-right-radius: 5px;}
+        a{text-decoration: none;}
+        .div{float: left;}
+        .h1{margin-left: 10px; margin-top: 20px; float: left; font-size: 35px; color: white;}
+        .p{float: left; font-size: 10px; margin-left: 13px; color: white;}
+        .p1{float: left; color: white; margin-left: 10px;}
+        .p1{margin-top: 40px; float: left;}
+        .input1{float: left; margin-left: 900px; margin-top: 40px; background-color: aquamarine; border-radius: 5px;}
+        .input2{float: left; margin-left: 45px; margin-top: 20px; background-color: aquamarine; width: 40px; height: 40px; border-radius: 50%;}
+        .div1{float: left;}
+        .a1{float: left; margin-left: 47px; text-decoration: none; color: white;}
+        .a2{float: left; margin-left: 49px; text-decoration: none; color:white ;}
+        .a3{float: left; margin-left: 37px; text-decoration: none; color: white;}
+        .div2{float: left; margin-left: 40px;margin-top: 30px;}
+        .img{width: 40px; height: 40px; border-radius: 50%;}
+        .div3{float: left; margin-left: 30px;line-height: 100px; color: white;}
+        .body1{width: 100%; height: 500px;background:linear-gradient(to bottom,rgb(107,175,240)10%,rgb(245, 137, 227)60%); overflow: hidden;}
+        .bdiv1{width: 750px; height: 300px; background-color: whitesmoke; float: left; margin-top: 100px; margin-left: 100px; border-radius: 15px;}
+        .bdiv2{width: 750px; height: 300px; background-color: whitesmoke; float: left; margin-top: 100px; margin-left: 200px; border-radius: 15px;}
+        .img1{float: left; margin-top: 10px; margin-left: 40px;}
+        .bdiv11{float: left; margin-left: 20px; margin-top: 40px; font-size: 30px;}
+        .bdiv12{float: left; margin-left: 650px;}
+        .bdiv13{float: left; margin-left: 40px; margin-top: 20px; width: 300px; height: 100px; background: linear-gradient(to right,rgb(154, 83, 156),rgb(147,36,151)); border-radius: 20px;}
+        .bdiv14{float: left; margin-left: 60px; margin-top: 20px; width: 300px; height: 100px; background: linear-gradient(to right,rgb(71, 120, 160),rgb(10, 80, 138)); border-radius: 20px;}
+        .a4{line-height: 100px;margin-left: 100px; font-size: 25px; color: black;}
+        .bdiv21{width:50px; height: 25px; background-color: orange; color: white; border-top-left-radius: 15px; text-align: center;}
+        .img2{float: left; margin-left: 40px; margin-top: 10px;}
+        .bdiv22{float: left; margin-left: 20px; margin-top: 25px; font-size: 40px;}
+        .bdiv23{font-size: 15px; margin-top: 30px;}
+        .bdiv24{width: 300px; height: 100px; background: linear-gradient(rgb(151, 74, 74),rgb(187, 7, 7)); float: left; margin-top: 40px; margin-left: 40px; border-radius: 20px;}
+        .bdiv25{width: 300px; height: 100px; background: linear-gradient(rgb(85, 179, 127),rgb(6, 216, 101)); float: left; margin-top: 40px; margin-left: 60px; border-radius: 20px;}
+        .body2{width: 100%; height: 100px; background-color: whitesmoke; overflow: hidden;}
+        .img3{width: 100px; height: 100px; float: left;}
+        .h2{float: left; margin-left: 20px; font-size: 35px; line-height: 100px;}
+        .div4{width: 100px; height: 40px; float: left; margin-left: 20px; margin-top: 30px; background-color: rgb(55, 122, 223,.5); line-height: 40px; border-radius: 15px; text-align: center;}
+        .input3{float: left; margin-left: 1200px; margin-top: 30px;}
+        .input31{width: 100px; height: 40px; border-radius: 15px; border-color: rgb(36, 146, 219); color: rgb(36,146,219);}
+        .input4{float: left; margin-left: 30px; margin-top: 30px;}
+        .input41{width: 100px; height: 40px;background-color: rgb(36,146,219); color: white; border-radius: 15px; border-color: rgb(36,146,219);}
+        .body3{width: 100%; height: 1100px; background-color: white; border-radius: 20px; margin-top: 10px; overflow: hidden;}
+        .bdiv31{width: 1200px; height: 300px; box-shadow: 5px 5px 10px gray; background-color: white; margin-top: 50px; margin-left: 50px; border-radius: 10px;}
+        .bdiv32{width: 1200px; height: 300px; box-shadow: 5px 5px 10px gray; background-color: white; margin-top: 50px; margin-left: 50px; border-radius: 10px;}
+        .bdiv33{width: 1200px; height: 300px; box-shadow: 5px 5px 10px gray; background-color: white; margin-top: 50px; margin-left: 50px; border-radius: 10px;}
+        .img41{width: 600px; height: 300px; border-top-left-radius: 10px; border-bottom-left-radius: 10px;}
+        .img4{ width: 600px; height: 300px;float: left;}
+        .a51{color: black;}
+        .a5{float: left; width: 550px; height: 50px; line-height: 50px; font-size: 25px; margin-top: 40px; margin-left: 30px;}
+        .p2{float: left; margin-top: 30px; margin-left: 50px;font-size: 25px;}
+        .p3{float: left; margin-top: 30px; margin-left: 350px; font-size: 25px;}
+        .p4{float: left; margin-top: 30px;margin-left: 50px; font-size: 20px; color: blue;}
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="div">
+            <div class="h1"><b>在线大学</b></div><br>
+            <div><p class="p">ONLINE  UNIVERSITY</p></div>
+        </div>
+        <div class="p1">|<b>沈阳职业技术学院</b></div>
+        <input type="button" value="旧版学堂" class="input1">
+        <div class="div1">
+            <input type="image" src="图片.img/屏幕截图 2024-10-15 153357(1).png" class="input2"><br>
+            <a href="https://www.zhihuishu.com/" target="_blank" class="a1">官网</a>
+        </div>
+        <div class="div1">
+            <input type="image" src="图片.img/屏幕截图 2024-10-15 153648(1).png" class="input2"><br>
+            <a href="https://user.zhihuishu.com/zhsuser/account/new" target="_blank" class="a3">用户管理</a>
+        </div>
+        <div class="div1">
+            <input type="image" src="图片.img/屏幕截图 2024-10-15 153913(1).png" class="input2"><br>
+            <a href="https://www.zhihuishu.com/supportService-new/page/stu/index.html?tab=1&isManager=0" target="_blank" class="a3">帮助中心</a>
+        </div>
+        <div class="div1">
+            <input type="image" src="图片.img/屏幕截图 2024-10-15 153913(1).png" class="input2"><br>
+            <a href="https://onlineh5.zhihuishu.com/onlineWeb.html#/student/noticeCenter?entry=1&noticeType=0" target="_blank" class="a2">消息</a>
+        </div>
+        <div class="div2"><img src="图片.img/575e81ba59b34a3e84fa40ddf3dc500d_s2.png" class="img"></div>
+        <div class="div3"><b>朱耀轩</b></div>
+    </div>
+    <div class="body1">
+        <div class="bdiv1">
+            <div class="img1"><img src="图片.img/屏幕截图 2024-10-15 090655(1).png"></div>
+            <div class="bdiv11">课堂工具</div>
+            <div class="bdiv12"><a href="https://www.zhihuishu.com/copy.html" target="_blank">使用说明></a></div>
+            <div class="bdiv13"><a href="https://www.zhihuishu.com/portals_h5/2clearning.html#/courseResource?type=1&courseTagDtos=4" target="_blank" class="a4">教师授课</a></div>
+            <div class="bdiv14"><a href="https://lc.zhihuishu.com/live/index.html" target="_blank" class="a4">直播课堂</a></div>
+        </div>
+        <div class="bdiv2">
+            <div class="bdiv21">VIP</div>
+            <div class="img2"><img src="图片.img/屏幕截图 2024-10-15 100134(1).png"></div>
+            <div class="bdiv22">大明白</div>
+            <div class="bdiv23">-教育版Chat GPT，能够与您对话互动，回答问题，高效便捷地获取信息、知识和灵感</div><br>
+            <div class="bdiv24"><a href="#" class="a4">与我对话</a></div>
+            <div class="bdiv25"><a href="#" class="a4">识别文件</a></div>
+        </div>
+    </div>
+    <div class="body2">
+        <div class="img3"><img src="图片.img/屏幕截图 2024-10-15 102737(1).png" class="img3"></div>
+        <div class="h2">我的课程</div>
+        <div class="div4">共3门</div>
+        <div class="input3">
+            <select name="select" id="select" class="input31">
+                <option selected="selected">更多设置</option>
+                <option>......</option>
+                <option>......</option>
+            </select>
+        </div>
+        <div class="input4"><input type="button" value="+创建新课" class="input41"></div>
+    </div>
+    <div class="body3">
+        <div class="bdiv31">
+            <div class="img4"><img src="图片.img/13ccde917cdd4b9a8f616fb6eab537458170897427520662920.png" class="img41"></div>
+            <div class="a5"><a href="file:///C:/Users/Administrator/AppData/Local/Temp/360zip$Temp/360$1/%E6%96%B0%E5%BB%BA%E6%96%87%E4%BB%B6%E5%A4%B9/%E8%AF%BE%E5%A0%82%E6%95%99%E5%AD%A6.html" target="_blank" class="a51">XXXXXXXXXXX课程（公共课）</a></div>
+            <div class="p2"><b>xx</b><br>学生数</div>
+            <div class="p3"><b>xx</b><br>资源数</div>
+            <div class="p4">2023~2024学年第2学期</div>
+        </div>
+        <div class="bdiv32">
+            <div class="img4"><img src="图片.img/26c7d363eab74e6eb90e3990cf49dc395082818164735780528.png" class="img41"></div>
+            <div class="a5"><a href="file:///E:/Hb_project/web/%E8%AF%BE%E7%A8%8B%E9%80%89%E6%8B%A9%E4%B8%8E%E8%B7%B3%E8%BD%AC/%E6%88%91%E7%9A%84%E8%AF%BE%E7%A8%8B2.html" target="_blank" class="a51">XXXXXXXXXXX课程（专业课）</a></div>
+            <div class="p2"><b>xx</b><br>学生数</div>
+            <div class="p3"><b>xx</b><br>资源数</div>
+            <div class="p4">2023~2024学年第2学期</div>
+        </div>
+        <div class="bdiv33">
+            <div class="img4"><img src="图片.img/92e70d4735024f80a2db8e10a154d15b1323960105112464932.png" class="img41"></div>
+            <div class="a5"><a href="file:///E:/Hb_project/web/%E8%AF%BE%E7%A8%8B%E9%80%89%E6%8B%A9%E4%B8%8E%E8%B7%B3%E8%BD%AC/%E6%88%91%E7%9A%84%E8%AF%BE%E7%A8%8B3.html" target="_blank" class="a51">XXXXXXXXXXX课程（直播课）</a></div>
+            <div class="p2"><b>xx</b><br>学生数</div>
+            <div class="p3"><b>xx</b><br>资源数</div>
+            <div class="p4">2023~2024学年第2学期</div>
+        </div>
+    </div>
+</body>
+</html>
